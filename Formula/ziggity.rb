@@ -1,30 +1,30 @@
 class Ziggity < Formula
   desc "Terminal UI for Git, written in Zig"
   homepage "https://github.com/simoarpe/ziggity"
-  version "0.13.0"
+  version "0.14.0"
   license "MIT"
 
   depends_on "git"
 
   on_macos do
     on_arm do
-      url "https://github.com/simoarpe/ziggity/releases/download/v0.13.0/ziggity-v0.13.0-aarch64-macos.tar.gz"
-      sha256 "116e62caadda35f1064be4457e06e680237e353447cd6fdcac52f790362b8aac"
+      url "https://github.com/simoarpe/ziggity/releases/download/v0.14.0/ziggity-v0.14.0-aarch64-macos.tar.gz"
+      sha256 "7e35f7e2875e12bf5a295de04b85953fd8881016cac51f3e8f9435016c6c1b0b"
     end
     on_intel do
-      url "https://github.com/simoarpe/ziggity/releases/download/v0.13.0/ziggity-v0.13.0-x86_64-macos.tar.gz"
-      sha256 "0a6f8867acbb5e864f71f62cb1546f3fa3d94a76d687018ed1f948f7ac3db9ca"
+      url "https://github.com/simoarpe/ziggity/releases/download/v0.14.0/ziggity-v0.14.0-x86_64-macos.tar.gz"
+      sha256 "1234ae70504fcc3257739ff114d854214da1cb8a95191da2ff820c64ff7a0a45"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/simoarpe/ziggity/releases/download/v0.13.0/ziggity-v0.13.0-aarch64-linux-musl.tar.gz"
-      sha256 "ffabc9f01379d3726c31fc5c292d071c9cc50a6b97a2224f56bec08f0fbcfb53"
+      url "https://github.com/simoarpe/ziggity/releases/download/v0.14.0/ziggity-v0.14.0-aarch64-linux-musl.tar.gz"
+      sha256 "eecc77286e3cc33616da7f90d68d4924be3ca2043de805be0ca5b3d2cae822d5"
     end
     on_intel do
-      url "https://github.com/simoarpe/ziggity/releases/download/v0.13.0/ziggity-v0.13.0-x86_64-linux-musl.tar.gz"
-      sha256 "2385b4d9a4ad3fceaf64b1af5eadb045c8689851e78d85c5d88f3916f71ee8ed"
+      url "https://github.com/simoarpe/ziggity/releases/download/v0.14.0/ziggity-v0.14.0-x86_64-linux-musl.tar.gz"
+      sha256 "f9bd7fc9f9bebb94c54f29a48f3718ee9d87981664b18b54382ed49be536c784"
     end
   end
 
